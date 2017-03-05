@@ -1,6 +1,4 @@
-body {
-    display: flex;
-}
+
 
 .bio {
     width: 1500px;
@@ -19,16 +17,16 @@ img {
     left: 450px;
     position: absolute;
     top: 150px;
-    left: 700px;    
+    left: 630px;    
     z-index: -1;
-    border: 3px solid black;
+    border: 10px solid black;
     
 }
 
 p {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    color: grey;;  
+    color: color;   
     padding: 30px;
 }
 
@@ -39,6 +37,18 @@ p:hover {
     border-radius: 10px;
     box-shadow:  3px 3px 10px black;
     opacity: 0.75;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: silver;
+    padding-top: 10px;
+}
+
+header{ 
+    background-color: black;
+    height: 50px;
 }
 
 
